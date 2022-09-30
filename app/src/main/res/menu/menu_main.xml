@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.cvtc.cbement.caseyscafe.MainActivity">
+    <item
+        android:id="Family"
+        android:orderInCategory="100"
+        android:title="@string/about_my_family"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name"/>
+    <item
+        android:id="Hobbies"
+        android:orderInCategory="100"
+        android:title="@string/about_my_hobbies"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name_hobby"/>
+</menu>
